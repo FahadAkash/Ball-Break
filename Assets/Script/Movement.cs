@@ -20,20 +20,20 @@ public class Movement : MonoBehaviour
     {
         if(body != null)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.A))
             {
                 body.velocity += DirectionZ * MoveSpeed * Time.deltaTime;
 
             }
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.D))
             {
                 body.velocity  -= DirectionZ * MoveSpeed * Time.deltaTime;   
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.W))
             {
                 body.velocity += DirectionX * MoveSpeed * Time.deltaTime;
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.S))
             {
                 body.velocity -= DirectionX * MoveSpeed * Time.deltaTime;
             }
