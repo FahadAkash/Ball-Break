@@ -11,6 +11,12 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-1:
       value: 02005505040d5d58550d0d2615770f444f164f7c7d71726229784963e6b2633b
       flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5153065700000a08580a5b2448710844444e417c787074677b284e30bab23260
+      flags: 0
+    lightmappingBakingProfile:
+      value: 51
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
@@ -29,3 +35,4 @@ EditorUserSettings:
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1
